@@ -94,14 +94,9 @@
 
                     </tr>
                 </thead>
-                <tbody>
+                <tbody id="tableBody">
                     <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td><a href="">Editar</a></td>
-                        <td><a href="">Borrar</a></td>
+                   
                     </tr>
 
                 </tbody>

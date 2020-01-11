@@ -11,10 +11,12 @@
         }
 
         function getData(){
-            $sql = "SELECT id,nombre,asignatura,nota from alumnos";
+            $sql = "SELECT id,nombre,asignatura,nota from alumnos order by id desc";
             $result = $this->conn->query($sql);
-         
-            return ($result->num_rows > 0) ? $result : "";
+
+            $resultArray = ($result->num_rows > 0) ? $result->fetch_all(MYSQLI_ASSOC) : "";
+          
+            return $resultArray;
 
         }
 

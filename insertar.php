@@ -7,8 +7,9 @@
     $bd = new BD();
 
     $bd->insertData($nombre,$asignatura,$nota);
+
     $contenido = $bd->getData();
-    
-    echo "{'hola':'s'}";
+
+    echo json_encode($contenido);
 
 ?>
