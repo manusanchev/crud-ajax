@@ -26,7 +26,7 @@
 
             </div>
             <div class="modal-footer">
-                <input type="button" onclick="iniciarActualizar()" class="btn btn-primary" data-dismiss="modal"
+                <input type="button"  class="btn btn-primary" data-dismiss="modal"
                     value="Insertar">
             </div>
             </form>

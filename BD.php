@@ -19,7 +19,7 @@
             return $resultArray;
 
         }
-
+       
         function insertData($nombre,$asignatura,$nota){
             if(strlen($nombre)<0){
                 return "nombre";
