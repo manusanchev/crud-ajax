@@ -40,9 +40,9 @@
             return($this->conn->query($sql) ? true : false);
         }
 
-        function updateData($nombre,$asignatura,$nota){
+        function updateData($id,$nombre,$asignatura,$nota){
             
-            $sql = "UPDATE alumnos SET nombre='$nombre', asignatura='$asignatura', nota='$nota'";
+            $sql = "UPDATE alumnos SET nombre='$nombre', asignatura='$asignatura', nota='$nota' where id = $id";
             return($this->conn->query($sql) ? true : false);
         }
     }
