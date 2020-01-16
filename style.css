@@ -60,7 +60,7 @@ header{
 }
 .mensajes{
     width: 80%;
-    height: 78vh;
+    height: 77vh;
     background-color: aqua;
     overflow-y: scroll;
     display: flex;
@@ -101,6 +101,19 @@ header{
  
  
 }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(94, 89, 89); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3f2e2e; 
+  }
 
 @media only screen and (max-width: 600px) {
     .container__chat{
